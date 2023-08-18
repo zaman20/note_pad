@@ -55,11 +55,14 @@
 .logout-btn{
     float: right;
     width: 100px;
+    margin-top: 20px;
 
 }
 .back-btn{
     width: 100px;
     float: left;
+    clear: left;
+    margin-top: 20px;
 }
 .logout-btn i, .back-btn i{
     font-size: 30px;
@@ -68,7 +71,7 @@
     color: red;
 }
 .box-wrapper{
-    width: 60%;
+    width: 70%;
     margin:0 auto;
 }
 .add-new-box{
