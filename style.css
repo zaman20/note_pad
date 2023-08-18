@@ -1,0 +1,76 @@
+.login-area {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    padding: 20px;
+}
+.title{
+    font-size: 28px;
+    color: rgb(1, 1, 63);
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(252, 241, 78);
+    border-radius: 5px;
+    float: left;
+    margin: 1%;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #303030;
+    transition: .3s;
+}
+.box i{
+    font-size: 30px;
+    color: rgb(221, 171, 6);
+}
+.box h2{
+    font-size: 25px;
+    margin-top: 20px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box:hover{
+    background: white;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px wheat;
+}
+.box:hover h2{
+    color: #000;
+}
+.main-container{
+    border: 2px dotted rgb(255, 146, 146);
+    width:80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px 0px 10px 0px;
+}
+.logout-btn{
+    float: right;
+    width: 100px;
+
+}
+.back-btn{
+    width: 100px;
+    float: left;
+}
+.logout-btn i, .back-btn i{
+    font-size: 30px;
+}
+.logout-btn:hover i, .back-btn:hover i{
+    color: red;
+}
+.box-wrapper{
+    width: 60%;
+    margin:0 auto;
+}
+.add-new-box{
+    margin-bottom: 22px;
+}
