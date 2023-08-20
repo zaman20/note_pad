@@ -5,6 +5,7 @@
     border: 2px solid rgb(228, 228, 228);
     border-radius: 5px;
     padding: 20px;
+    height: 235px;
 }
 .title{
     font-size: 28px;
@@ -71,9 +72,33 @@
     color: red;
 }
 .box-wrapper{
-    width: 70%;
+    width: 75%;
     margin:0 auto;
 }
 .add-new-box{
     margin-bottom: 22px;
+}
+.login-btn {
+    width: 190px;
+    float: left;
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    background: #04b8ca;
+    cursor: pointer;
+}
+.reg-btn {
+    width: 190px;
+    float: right;
+    margin-top: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background: #d25202;
+}
+.login-btn:hover, .reg-btn:hover{
+    border: 2px solid wheat;
 }

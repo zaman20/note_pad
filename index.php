@@ -15,12 +15,17 @@
             <div class="col-lg-12">
                 <div class="login-area">
                     <h2 class="title">My Note-1.0</h2>
-                    <form action="">
-                        <input type="text" placeholder="User Name" class="form-control my-2">
-                        <input type="password" placeholder="Password" class="form-control my-2">
-                        <input type="submit" value="Open" class="form-control btn btn-info my-2">
+                    <?php if(isset($_GET['msg'])){?>
+                        <p class="alert alert-danger"><?php echo $_GET['msg'];?></p>
+                    <?php }?>
+                    <form action="login.php" method="POST">
+                        <input type="text" name="user_name" placeholder="User Name" class="form-control my-2">
+                        <input type="password" name="password" placeholder="Password" class="form-control my-2">
+                        <input type="submit" value="Open" class="btn my-2 login-btn">
                     </form>
+                    <a href="register.php"  class="btn reg-btn">Register</a>
                 </div>
+                
             </div>
         </div>
     </div>
